@@ -9,4 +9,5 @@
       bind:listItemAudioEvent="listItemAudioEvent" 
     />
   </block>
+  <view class="footer-title">找回内心的平静与幸福</view>
 </view>

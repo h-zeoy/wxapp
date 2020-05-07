@@ -1,4 +1,4 @@
-/* pages/yoga/yoga.wxss */
+/* pages/scholarship/scholarship.wxss */
 page{
   height: 100%;
 }
@@ -47,6 +47,9 @@ page{
       font-family:PingFangSC-Medium,PingFang SC;
       font-weight: 500;
       color:rgba(121,90,0,1);
+    }
+    button::after{
+      border: none;
     }
   }
 }

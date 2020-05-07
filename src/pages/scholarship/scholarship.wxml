@@ -1,4 +1,4 @@
-<!--pages/study/study.wxml-->
+<!--pages/scholarship/scholarship.wxml-->
 <view class="container scholarship-wrap">
   <view class="scholarship-content container">
     <image class="scholarship-icon-img" src="https://oss-polaris-test.qingxinmingxiang.com/image/miniapp/scholIcon.png" />
