@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/scholarship/scholarship",
     "pages/index/index",
     "pages/play/play",
-    "pages/study/study"
+    "pages/study/study",
+    "pages/scholarship/scholarship"
   ],
   "window": {
     "backgroundTextStyle": "light",
