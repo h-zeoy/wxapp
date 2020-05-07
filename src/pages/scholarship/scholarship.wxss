@@ -1,0 +1,52 @@
+/* pages/yoga/yoga.wxss */
+page{
+  height: 100%;
+}
+
+.scholarship-wrap {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://oss-polaris-test.qingxinmingxiang.com/image/miniapp/scholBg.png');
+  background-size: 100% 100%;
+  .scholarship-content {
+    width: 655rpx;
+    height: 966rpx;
+    background:rgba(255,255,255,1);
+    border-radius: 37rpx;
+    .title {
+      margin-top: 40rpx;
+      margin-bottom: 95rpx;
+      font-size:60rpx;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(174,50,31,1);
+    }
+    .moniter-info {
+      font-size:r34px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(249,187,10,1);
+    }
+    .scholarship-icon-img {
+      height: 239rpx;
+      width: 248rpx;
+    }
+    .scholarship-jiantou-img {
+      height: 47rpx;
+      width: 40rpx;
+      margin-top: 64rpx;
+      margin-bottom: 54rpx;
+    }
+    button {
+      width: 523rpx;
+      height: 102rpx;
+      background:rgba(249,187,10,1);
+      line-height: 102rpx;
+      border-radius: 60rpx;
+      font-size: 36rpx;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight: 500;
+      color:rgba(121,90,0,1);
+    }
+  }
+}

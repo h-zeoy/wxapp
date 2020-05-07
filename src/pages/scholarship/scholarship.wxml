@@ -1,0 +1,11 @@
+<!--pages/study/study.wxml-->
+<view class="container scholarship-wrap">
+  <view class="scholarship-content container">
+    <image class="scholarship-icon-img" src="https://oss-polaris-test.qingxinmingxiang.com/image/miniapp/scholIcon.png" />
+    <text class="title">奖学金申请</text>
+    <text class="moniter-info">点击添加工作人员为好友</text>
+    <text class="moniter-info">获得奖学金申请链接</text>
+    <image class="scholarship-jiantou-img" src="https://oss-polaris-test.qingxinmingxiang.com/image/miniapp/scholJT.png" />
+    <button type='default' open-type="contact" bindcontact="handleContact">回复“5”获取工作人员链接</button>
+  </view>
+</view>
