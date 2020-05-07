@@ -1,0 +1,43 @@
+/* pages/list-item/list-item.wxss */
+.list-wrap {
+  width: 100%;
+  margin-top: 61rpx;
+  .list-title {
+    font-size: 42rpx;
+    font-family: PingFangSC-Medium,PingFang SC;
+    font-weight: 500;
+    color:rgba(51,51,51,1);
+  }
+  .list-tiem-wrap {
+    display: flex;
+    .list-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .list-tiem-circle-image {
+        width: 120rpx;
+        height: 120rpx;
+        margin-top: 51rpx;
+      }
+      .list-tiem-rectangle-image {
+        width: 202rpx;
+        height: 116rpx;
+        margin-top: 50rpx;
+      }
+      .list-tiem-circle-text {
+        margin-top: 31rpx;
+      }
+      .list-tiem-rectangle-text {
+        margin-top: 29rpx;
+      }
+      text {
+        font-size: 28rpx;
+        font-family: PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(153,153,153,1);
+        margin-bottom: 40rpx;
+      }
+    }
+  }
+}

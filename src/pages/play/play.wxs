@@ -1,0 +1,20 @@
+var filter =  {
+  handleDate: function(time) {
+    var interval = Math.floor(time);
+    var minute = (Math.floor(interval / 60));
+    var second = (interval % 60);
+    return zero(minute) + ':' + zero(second);
+  }
+}
+
+function zero(value) {
+  if (value < 10) {
+    return '0' + value;
+  } else {
+    return value;
+  }
+}
+
+module.exports = {
+	handleDate: filter.handleDate
+};

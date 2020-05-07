@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="home-wrap">
+  <block wx:for="{{ audioList }}" wx:key="moduleId">
+    <list-item
+      title="{{ item.title }}"
+      type="{{ item.type }}"
+      list="{{ item.list }}"
+      moduleId="{{ item.moduleId }}"
+      bind:listItemAudioEvent="listItemAudioEvent" 
+    />
+  </block>
+</view>

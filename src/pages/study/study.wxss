@@ -1,0 +1,56 @@
+/* pages/study/study.wxss */
+page{
+  height: 100%;
+}
+
+.study-wrap {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://polaris-test.oss-cn-beijing.aliyuncs.com/image/course/dKbRSnct.png');
+  background-size: 100% 100%;
+  .study-content {
+    width: 655rpx;
+    height: 966rpx;
+    background:rgba(255,255,255,1);
+    border-radius: 37rpx;
+    .pay-margin-top {
+      margin-top: 50rpx;
+    }
+    .pay-margin-bottom {
+      margin-bottom: 92rpx;
+    }
+    .pay-info {
+      font-size: 40rpx;
+      font-family: PingFangSC-Medium,PingFang SC;
+      font-weight: 500;
+      color:rgba(64,73,127,1);
+    }
+    .moniter-info {
+      font-size: 34rpx;
+      font-family: PingFangSC-Medium,PingFang SC;
+      font-weight: 500;
+      color:rgba(159,166,195,1);
+    }
+    .study-icon-img {
+      height: 258rpx;
+      width: 378rpx;
+    }
+    .study-jiantou-img {
+      height: 47rpx;
+      width: 40rpx;
+      margin-top: 64rpx;
+      margin-bottom: 54rpx;
+    }
+    button {
+      width: 523rpx;
+      height: 102rpx;
+      background:rgba(249,187,10,1);
+      line-height: 102rpx;
+      border-radius: 60rpx;
+      font-size: 36rpx;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight: 500;
+      color:rgba(121,90,0,1);
+    }
+  }
+}

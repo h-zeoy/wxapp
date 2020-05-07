@@ -1,0 +1,6 @@
+<!--pages/play/play.wxml-->
+<view class="play-wrap">
+  <view class="{{ isPlay ? 'play-yuan-bg' : 'play-yuan-bg play-animation' }}"></view>
+  <view class="{{ isPlay ? 'play-btn play-btn-stop' :  'play-btn play-btn-play'}}" bindtap="handlePlay"></view>
+  <text>{{ playInfo.name}}</text>
+</view>

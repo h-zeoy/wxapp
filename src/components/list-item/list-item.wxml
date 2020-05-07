@@ -1,0 +1,13 @@
+<!--pages/list-item/list-item.wxml-->
+<view class="list-wrap">
+  <text class="list-title">{{ title }}</text>
+  <view class="list-tiem-wrap">
+    <block  wx:for="{{ list }}" wx:key="id">
+      <view class="list-item" bindtap="audioTap" data-id="{{ item.id }}" data-moduleId="{{ moduleId }}">
+        <image class="{{type == 'circle' ? 'list-tiem-circle-image' : 'list-tiem-rectangle-image' }}" src="{{ item.img }}"/>
+        <text class="{{type == 'circle' ? 'list-tiem-circle-text' : 'list-tiem-rectangle-text' }}">{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+</view>
+
