@@ -1,7 +1,7 @@
 <!--pages/study/study.wxml-->
 <view class="container study-wrap" wx:if="{{replyNum}}" >
   <view class="study-content container">
-    <image class="study-icon-img" src="https://oss-polaris-test.qingxinmingxiang.com/image/course/ZwKKKNKa.png" />
+    <image class="study-icon-img" src="https://oss-polaris-test.qingxinmingxiang.com/image/miniapp/ZwKKKNKa.png" />
     <text class="pay-info pay-margin-top">你已成功付费</text>
     <text class="pay-info pay-margin-bottom">还差最后一步完成报名</text>
     <text class="moniter-info">你的专属班长正在等你</text>

@@ -6,7 +6,7 @@ page{
 .study-wrap {
   width: 100%;
   height: 100%;
-  background-image: url('https://oss-polaris-test.qingxinmingxiang.com/image/course/dKbRSnct.png');
+  background-image: url('https://oss-polaris-test.qingxinmingxiang.com/image/miniapp/dKbRSnct.png');
   background-size: 100% 100%;
   .study-content {
     width: 655rpx;
